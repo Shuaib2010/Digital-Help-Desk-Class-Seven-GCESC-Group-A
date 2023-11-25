@@ -1,0 +1,79 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="icon" href="img/cycm.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&amp;family=Baloo+Tammudu+2&amp;family=Open+Sans&amp;family=Orbitron&amp;family=Roboto:wght@300&amp;display=swap" rel="stylesheet">
+    <title>CyberCrime Help Desk | GCESC CLASS 7 BOYS</title>
+  </head>
+  <body class="font-fav" >
+    <div class="parent">
+      <div id="navbar">
+      <a  href="index.html">Introduction</a>
+      <a href="qna.html">Q/A</a>
+      <a class="active"  href="extra.html">Extra Problems?</a>
+    </div>
+    <div class="s-1">
+      <h1>Haven't found your Query!?</h1>
+      <p>We have tried our best to cover up the common cybercrime problems that we face in our day-to-day lives. Sorry for the inconvenience of not having a feedback option as this website is to be improved. But, We can suggest to you the safest search engines in the whole world. You would be surprised to know that Google, the most commonly used search engine, is not the safest one. In fact, it's not even on the list of the top 10!😯</p>
+    </div>
+    <div class="webs">
+      <div class="grp">
+        <a href="https://www.ecosia.org/"><img src="img/ecu.png"></a>
+        <a href="https://www.oscobo.com//"><img src="img/osc1.png" style="margin-top: 180px; margin-left: 100;"></a>
+      </div>
+      <div class="grp">
+        <a href="https://swisscows.com/"><img src="img/swi.png"></a>
+        <a href="https://gibiru.com/"><img src="img/gib.png"></a>
+      </div>
+      <div class="grp">
+        <a href="https://www.searchencrypt.com/"><img src="img/sen.png"></a>
+        <a href="https://www.qwant.com/?l=en"><img src="img/qwa.png"></a>
+      </div>
+      <div class="grp">
+        <a href="https://metager.org/"><img src="img/met.svg" style="width :75%;"></a>
+        <a href="https://search.disconnect.me/"><img src="img/dsc.png"></a>
+      </div>
+      <div class="grp">
+        <a href="https://searx.org/"><img src="img/sar.png"></a>
+        <a href="https://duckduckgo.com/"><img src="img/duc.png"></a>
+      </div>
+    </div>
+    <footer>
+          <p>Product Owner: Ghatail Cantonment English School And College, Class 7 Boys<br>
+          "Copyright©"</p>
+        </footer>
+    </body><script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+    const items = document.querySelectorAll(".accordion button");
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+  
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+  
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));
+    </script></html>
